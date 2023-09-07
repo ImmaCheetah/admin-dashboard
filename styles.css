@@ -181,8 +181,30 @@ input {
 /* Header Bottom || */
 .header-bottom {
     display: grid;
-    grid-template-columns: 150px 400px 1fr;
+    grid-template-columns: 1fr 1fr;
+    justify-self: start;
+    padding-bottom: 15px;
+    /* grid-auto-flow: column; */
+}
+
+.icon-greeting {
+    display: grid;
     grid-auto-flow: column;
+    place-items: center;
+}
+
+.greeting {
+    padding-left: 20px;
+}
+
+.greeting h2 {
+    font-size: 30px;
+    font-weight: bold;
+    padding-top: 8px;
+}
+
+.greeting p {
+    font-size: 18px;
 }
 
 .header-bottom > * {
