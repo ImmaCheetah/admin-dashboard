@@ -50,6 +50,7 @@ table {
     --main-text-clr: rgb(255, 254, 254);
     --bg: rgb(145, 145, 145);
     --cards: rgb(254, 253, 253);
+    --light-txt-clr: rgb(148, 148, 148);
 }
 
 /* BASIC STYLING || */
@@ -189,4 +190,34 @@ body {
 .card p:nth-child(2) {
     padding: 5px 30px 20px 30px;
     font-size: 1.1rem;
+}
+
+/* SIDE CARDS || */
+.side-cards {
+    padding-left: 1.1rem;
+}
+
+.announcements {
+    min-height: 20rem;
+    background-color: var(--cards);
+    border-radius: 2%;
+    padding: 30px;
+}
+
+.side-card-content h4 {
+    font-weight: bold;
+    padding-bottom: 0.5rem;
+    font-size: 18px;
+}
+
+.side-card-content {
+    padding: 20px 10px 20px 10px;
+}
+
+.side-card-content:nth-child(2) {
+    border-bottom: solid 1px var(--light-txt-clr);
+}
+
+.side-card-content:nth-child(1) {
+    border-bottom: solid 1px var(--light-txt-clr);
 }
