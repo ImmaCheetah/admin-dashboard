@@ -195,11 +195,14 @@ body {
 /* SIDE CARDS || */
 .side-cards {
     padding-left: 1.1rem;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1.5fr 1fr;
 }
 
 /* Announcement ||  */
 .announcements {
-    min-height: 20rem;
+    /* min-height: 20rem; */
     background-color: var(--cards);
     border-radius: 2%;
     padding: 30px;
@@ -225,7 +228,7 @@ body {
 
 /* Trending || */
 .trending {
-    min-height: 8rem;
+    /* min-height: 8rem; */
     background-color: var(--cards);
     display: grid;
     grid-template-columns: 1fr;
@@ -237,7 +240,6 @@ body {
 .trending div {
     display: grid;
     grid-template-columns: 75px 0.2fr;
-    /* justify-self: start; */
     justify-items: start;
     align-items: center;
 }
