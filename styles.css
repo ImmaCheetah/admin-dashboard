@@ -197,6 +197,7 @@ body {
     padding-left: 1.1rem;
 }
 
+/* Announcement ||  */
 .announcements {
     min-height: 20rem;
     background-color: var(--cards);
@@ -220,4 +221,47 @@ body {
 
 .side-card-content:nth-child(1) {
     border-bottom: solid 1px var(--light-txt-clr);
+}
+
+/* Trending || */
+.trending {
+    min-height: 8rem;
+    background-color: var(--cards);
+    display: grid;
+    grid-template-columns: 1fr;
+    border-radius: 2%;
+    padding: 0.7rem;
+    margin-top: 1rem;
+}
+
+.trending div {
+    display: grid;
+    grid-template-columns: 75px 0.2fr;
+    /* justify-self: start; */
+    justify-items: start;
+    align-items: center;
+}
+
+.trending-profile {
+    display: grid;
+    justify-self: start;
+    padding-left: 30px;
+}
+
+.trending-name {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.trending-name h5 {
+    font-size: 1.1rem;
+}
+
+.trending-name p {
+    padding-top: 0.2rem;
+    color: var(--light-txt-clr);
+}
+
+.trending img {
+    width: 60px;
 }
