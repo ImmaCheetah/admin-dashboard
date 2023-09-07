@@ -143,7 +143,7 @@ body {
     gap: 30px;
     font-size: 25px;
     font-weight: bold;
-    
+
 }
 
 .header-top img[alt="Profile Icon"] {
@@ -202,7 +202,15 @@ input {
     justify-self: center;
 }
 
-
+button {
+    appearance: none;
+    padding: 10px 25px;
+    border-radius: 50px;
+    border: none;
+    background-color: var(--primary-clr);
+    color: var(--main-text-clr);
+    font-size: 18px;
+}
 
 /* MAIN CONTENT || */
 #main-content {
