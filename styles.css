@@ -79,7 +79,7 @@ body {
 }
 
 /* SIDEBAR || */
-#sidebar {
+.sidebar {
     grid-row: 1 / 3;
     display: grid;
     grid-template-columns: 1fr;
@@ -88,10 +88,11 @@ body {
     color: var(--main-text-clr);
     justify-items: start;
     align-content: start;
-    gap: 2.5rem;
+    gap: 5rem;
+    height: 100vh;
 }
 
-#sidebar img {
+.sidebar img {
     width: 50px;
 }
 
@@ -241,7 +242,7 @@ button {
 #main-content {
     display: grid;
     grid-template-columns: 4fr 1fr;
-    padding: 40px;
+    padding: 20px;
 }
 
 .projects {
@@ -251,7 +252,7 @@ button {
 }
 
 .card {
-    height: 300px;
+    height: 350px;
     background-color: var(--cards);
     border-radius: 2%;
     border-left:  10px solid var(--border-clr);
@@ -293,6 +294,7 @@ button {
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 1.5fr 1fr;
+    padding-bottom: 5px;
 }
 
 /* Announcement ||  */
