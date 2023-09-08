@@ -44,11 +44,11 @@ table {
 }
 
 :root {
-    --primary-clr: rgb(46, 109, 154);
-    --header: rgb(194, 211, 223);
-    --border-clr: rgb(231, 206, 97);
+    --primary-clr: #673338;
+    --header: #A50519;
+    --border-clr: #A50519;
     --main-text-clr: rgb(255, 254, 254);
-    --bg: rgb(145, 145, 145);
+    --bg: #E4DEC8;
     --cards: rgb(254, 253, 253);
     --light-txt-clr: rgb(148, 148, 148);
 }
@@ -85,21 +85,25 @@ body {
 
 /* SIDEBAR || */
 #sidebar {
-    grid-row: 1 / 7;
+    grid-row: 1 / 5;
     display: grid;
     grid-template-columns: 1fr;
     background-color: var(--primary-clr);
-    font-size: 25px;
+    font-size: 20px;
     color: var(--main-text-clr);
+    justify-items: start;
+    /* align-items: center; */
 }
 
 #sidebar img {
-    width: 40px;
+    width: 30px;
 }
 
 .sidebar-icons {
     display: grid;
-    grid-auto-flow: column;
+    grid-template-columns: 0.5fr 1fr;
+    align-items: center;
+    gap: 20px;
 }
 /* #sidebar h2 {
     position: relative;
@@ -125,6 +129,7 @@ body {
     display: grid;
     grid-template-columns: 1fr;
     background-color: var(--header);
+    color: white;
     /* grid-template-rows: 1fr 1fr; */
 }
 
@@ -239,6 +244,7 @@ button {
     background-color: var(--primary-clr);
     color: var(--main-text-clr);
     font-size: 18px;
+    font-weight: bold;
 }
 
 /* MAIN CONTENT || */
