@@ -119,11 +119,9 @@ body {
 
 /* Header Top || */
 .header-top {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    padding: 15px;
-    padding-left: 70px;
-    justify-self: start;
+    display: flex;
+    padding: 15px 90px 15px 90px;
+    justify-content: space-between;
 }
 
 .search-bar, .top-right-profile {
@@ -180,11 +178,9 @@ input {
 
 /* Header Bottom || */
 .header-bottom {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    justify-self: start;
-    padding-bottom: 15px;
-    /* grid-auto-flow: column; */
+    display: flex;
+    padding: 0px 70px 15px 70px;
+    justify-content: space-between;
 }
 
 .icon-greeting {
