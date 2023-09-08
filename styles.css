@@ -44,7 +44,7 @@ table {
 }
 
 :root {
-    --primary-clr: #673338;
+    --primary-clr: #381d1f;
     --header: #A50519;
     --border-clr: #A50519;
     --main-text-clr: rgb(255, 254, 254);
@@ -287,6 +287,10 @@ button {
     justify-self: end;
     gap: 20px;
     padding-right: 20px;
+}
+
+.title {
+    color: var(--primary-clr);
 }
 
 .card-icons img {
