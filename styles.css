@@ -392,4 +392,13 @@ button:hover{
     color: var(--primary-clr);
     background:var(--bg);
     transition: 0.2s;
-  }
+}
+
+a:visited {
+    text-decoration: none;
+    color: black;
+}
+
+.sidebar-icons:hover {
+    text-decoration: underline;
+}
