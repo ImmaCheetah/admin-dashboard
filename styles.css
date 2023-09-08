@@ -87,10 +87,21 @@ body {
 #sidebar {
     grid-row: 1 / 7;
     display: grid;
+    grid-template-columns: 1fr;
     background-color: var(--primary-clr);
+    font-size: 25px;
+    color: var(--main-text-clr);
 }
 
-#sidebar h2 {
+#sidebar img {
+    width: 40px;
+}
+
+.sidebar-icons {
+    display: grid;
+    grid-auto-flow: column;
+}
+/* #sidebar h2 {
     position: relative;
     padding-left: 20px;
 }
@@ -103,9 +114,9 @@ body {
 #sidebar img {
     width: 50px;
     position: inherit;
-    top: 20px;
+    top: 10px;
     right: 10px;
-}
+} */
 
 
 
