@@ -276,7 +276,7 @@ button {
     display: grid;
     grid-auto-flow: column;
     justify-self: end;
-    gap: 20px;
+    gap: 10px;
     padding-right: 20px;
 }
 
@@ -286,6 +286,7 @@ button {
 
 .card-icons img {
     width: 35px;
+    padding: 5px;
 }
 
 /* SIDE CARDS || */
@@ -307,7 +308,7 @@ button {
 
 .side-card-content h4 {
     font-weight: bold;
-    padding-bottom: 0.5rem;
+    padding-bottom: 1rem;
     font-size: 18px;
 }
 
@@ -345,6 +346,7 @@ button {
     display: grid;
     justify-self: start;
     padding-left: 30px;
+    padding-right: 130px;
 }
 
 .trending-name {
@@ -363,4 +365,29 @@ button {
 
 .trending img {
     width: 60px;
+}
+
+/* EFFECTS || */
+#header {
+    box-shadow: 4px -1px 18px 0px rgba(0,0,0,0.75);
+}
+
+button:hover, 
+.sidebar-icons:hover, 
+img[alt="Bell Icon"]:hover,
+img[alt="Profile Icon"]:hover,
+.card-icons img:hover,
+.trending-profile:nth-child(1):hover,
+h3:hover {
+    cursor: pointer;
+}
+
+.card, .announcements, .trending {
+    box-shadow: 0px 2px 9px 0px rgba(0,0,0,0.19);
+}
+
+.card-icons img:hover,
+.trending-profile:nth-child(1):hover {
+    background-color: rgba(220, 220, 220, 0.5);
+    border-radius: 25px;
 }
